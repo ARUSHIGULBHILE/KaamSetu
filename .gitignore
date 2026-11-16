@@ -1,0 +1,23 @@
+# Secrets: never commit
+**/application-local.yml
+.env
+*.jks
+*.keystore
+**/key.properties
+
+# Java / Maven
+**/target/
+*.class
+.idea/
+*.iml
+
+# Flutter / Android
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/local.properties
+
+# OS
+.DS_Store
+Thumbs.db
