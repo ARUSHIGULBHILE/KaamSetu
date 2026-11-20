@@ -4,6 +4,9 @@
 *.jks
 *.keystore
 **/key.properties
+.env.*
+*.pem
+*.log
 
 # Java / Maven
 **/target/
